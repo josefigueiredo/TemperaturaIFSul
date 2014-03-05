@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mBlog" android:title="@string/mBlog"></item>
+    <group android:id="@+id/group1"></group>
+    <item android:id="@+id/mAbout" android:title="@string/mAbout"></item>
+
+</menu>

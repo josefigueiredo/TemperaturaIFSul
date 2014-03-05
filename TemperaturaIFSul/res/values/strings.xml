@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">nada-aqui-ainda</string>
+    <string name="app_name">TemperaturaIFSul</string>
+    <string name="msgTemp">Temperatura</string>
+    <string name="msgUR">Umidade Relativa</string>
+    <string name="msgPress">Pressão Atmosférica</string>
+    <string name="msgColected">Valores Coletados</string>
+    <string name="msgMeasured">Valores Medidos</string>
+    <string name="msgCalculated">Valores Calculados</string>
+    <string name="msgWindSpeed">Velocidade do Vento</string>
+    <string name="msgTermicSensation">Sensação Térmica</string>
+    <string name="btnRefresh">Atualizar</string>
+    <string name="mBlog">Blog</string>
+    <string name="mAbout">Sobre</string>
+    <string name="title_activity_about">Sobre</string>
+    <string name="msgProject">Projeto</string>
+    <string name="msgObjective">Objetivos</string>
+    <string name="msgTeam">Equipe</string>
+    <string name="msgPromotion">Fomento</string>
+    
+
+</resources>
