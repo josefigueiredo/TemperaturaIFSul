@@ -1,6 +1,5 @@
 package br.edu.ifsul.gpca.temperaturaifsul;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import android.app.Activity;
@@ -109,7 +108,7 @@ public class MainActivity extends Activity {
 			// TODO Auto-generated method stub
 			try {
 				String param = params[0];
-				String addressArduino = "http://192.168.0.5/json/";
+				String addressArduino = "http://10.5.99.5/json/";
 				String url = Uri.parse(addressArduino + param).toString();
 				if (debugar == true) {
 					Log.d("debug", "buscando em: " + url);
