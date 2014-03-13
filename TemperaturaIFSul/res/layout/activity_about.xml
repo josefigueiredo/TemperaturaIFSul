@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -10,99 +10,111 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".About" >
 
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/msgProject"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageView1" >
 
-    <View
-        android:id="@+id/Divisor1"
-        android:layout_width="wrap_content"
-        android:layout_height="2dip"
-        android:background="#A8A8A8" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <EditText
-        android:id="@+id/EditText03"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:enabled="false"
-        android:inputType="textMultiLine"
-        android:text="Estudo das interfaces de comunicação e armazenamento da plataforma Arduino em uma aplicação prática."
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msgProject"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <TextView
-        android:id="@+id/TextView03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/msgObjective"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+            <View
+                android:id="@+id/Divisor1"
+                android:layout_width="wrap_content"
+                android:layout_height="2dip"
+                android:background="#A8A8A8" />
 
-    <View
-        android:id="@+id/Divisor1"
-        android:layout_width="wrap_content"
-        android:layout_height="2dip"
-        android:background="#A8A8A8" />
+            <EditText
+                android:id="@+id/EditText03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textMultiLine"
+                android:text="Estudo das interfaces de comunicação e armazenamento da plataforma Arduino em uma aplicação prática."
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/EditText02"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:enabled="false"
-        android:inputType="textMultiLine"
-        android:text="Estudar e documentar as shields de comunicaçao do arduino, usando uma simples aplicacao para leitura de temperatura, umidade relativa e pressao atmosferica."
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msgObjective"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/msgTeam"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+            <View
+                android:id="@+id/Divisor1"
+                android:layout_width="wrap_content"
+                android:layout_height="2dip"
+                android:background="#A8A8A8" />
 
-    <View
-        android:id="@+id/Divisor1"
-        android:layout_width="wrap_content"
-        android:layout_height="2dip"
-        android:background="#A8A8A8" />
+            <EditText
+                android:id="@+id/EditText02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textMultiLine"
+                android:text="Estudar e documentar as shields de comunicaçao do arduino, usando uma simples aplicacao para leitura de temperatura, umidade relativa e pressao atmosferica."
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/EditText01"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:enabled="false"
-        android:inputType="textMultiLine"
-        android:text="Orientadores: José de Figueiredo, Anubis Rossetto; Bolsistas: Suelen Camargo, Avner Dalbosco; Colaboradores: Cristiano Fontana."
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msgTeam"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/msgPromotion"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+            <View
+                android:id="@+id/Divisor1"
+                android:layout_width="wrap_content"
+                android:layout_height="2dip"
+                android:background="#A8A8A8" />
 
-    <View
-        android:id="@+id/Divisor1"
-        android:layout_width="wrap_content"
-        android:layout_height="2dip"
-        android:background="#A8A8A8" />
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textMultiLine"
+                android:text="Orientadores: José de Figueiredo, Anubis Rossetto; Bolsistas: Suelen Camargo, Avner Dalbosco; Colaboradores: Cristiano Fontana."
+                android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:enabled="false"
-        android:inputType="textMultiLine"
-        android:text="PROPESP - Pró-Reitoria de Pesquisa, Inovação e  Pós-Graduação do IFSul. [Edital 03/2012]"
-        android:textSize="12sp" >
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msgPromotion"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
-        <requestFocus />
-    </EditText>
+            <View
+                android:id="@+id/Divisor1"
+                android:layout_width="wrap_content"
+                android:layout_height="2dip"
+                android:background="#A8A8A8" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textMultiLine"
+                android:text="PROPESP - Pró-Reitoria de Pesquisa, Inovação e  Pós-Graduação do IFSul. [Edital 03/2012]"
+                android:textSize="12sp" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
